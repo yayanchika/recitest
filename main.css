@@ -9,6 +9,12 @@ iframe {
 width:100%!important
 }
 
+.mdl-card__title {
+
+  padding:0px;
+}
+
+
 .embed-container {
   width: 100%;
   height: 500px;
