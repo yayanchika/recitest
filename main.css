@@ -9,19 +9,26 @@ iframe {
 width:100%!important
 }
 
+.mdl-cell--4-col{
+display: table-cell;
+
+}
+
+
 .mdl-card__title {
 
   padding:0px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mdl-card {
+
+  display:table-cell;
 }
 
 
-.embed-container {
-  width: 100%;
-  height: 500px;
-overflow: hidden;
-
-
-}
 
 .img-responsive {
     max-width: 100%;
@@ -33,7 +40,7 @@ overflow: hidden;
 .demo-card-square.mdl-card {
 /*  width: 320px;
   height: 320px;*/
-  max-width: 100%;
+  width: 320px;
   height:320px;
 }
 
