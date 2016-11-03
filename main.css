@@ -52,6 +52,9 @@ img.grayscale:hover {
 iframe {
 
 width:100%!important
+border: none; 
+visibility: visible; 
+height: 398px;
 }
 
 .mdl-cell--4-col{
@@ -199,5 +202,8 @@ width: 100%;
 
 }
 
+iframe {
+height: 228px;
+}
    }
 */
