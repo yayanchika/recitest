@@ -5,6 +5,8 @@ body
 }
 
 
+
+
 .leftbar-list {
 padding-top: 20px;
 padding-bottom: 20px;
@@ -177,3 +179,23 @@ float:left!important;
   -ms-transform: scale(1);
   transform: scale(1);
 }
+
+/*
+@media only screen and (max-device-width: 480px) {
+
+.mdl-grid {
+  display: none;
+}
+
+.leftbar {
+width: 100%;
+
+}
+
+.mobilevideo {
+width: 100%;
+
+}
+
+   }
+*/
