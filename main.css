@@ -180,12 +180,14 @@ float:left!important;
   transform: scale(1);
 }
 
-/*
+
 @media only screen and (max-device-width: 480px) {
 
+/*
 .mdl-grid {
   display: none;
 }
+*/
 
 .leftbar {
 width: 100%;
