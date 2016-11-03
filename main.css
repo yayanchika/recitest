@@ -10,7 +10,7 @@ width:100%!important
 }
 
 .mdl-cell--4-col{
-display: table-cell;
+display: table;
 
 }
 
@@ -41,7 +41,7 @@ display: table-cell;
 /*  width: 320px;
   height: 320px;*/
   width: 320px;
-  height:320px;
+  height:20px;
 }
 
 /*
