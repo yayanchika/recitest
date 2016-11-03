@@ -49,10 +49,6 @@ img.grayscale:hover {
 }
 
 
-iframe {
-
-width:100%!important
-}
 
 .mdl-cell--4-col{
 display: table;
@@ -181,6 +177,28 @@ float:left!important;
 }
 
 
+
+.video-container {
+    position: relative;
+    padding-bottom: 100%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important;
+
+}
+
+
+
+
 @media only screen and (max-device-width: 480px) {
 
 /*
@@ -197,6 +215,10 @@ width: 100%;
 .mobilevideo {
 width: 100%;
 
+}
+
+.video-container {
+    padding-bottom: 50%;
 }
 
    }
